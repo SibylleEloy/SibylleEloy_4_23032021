@@ -286,6 +286,37 @@ a:hover {
 
 #bloc-1-hero h1 {
   font-size: 32px;
+  position: relative;
+}
+
+#bloc-1-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#bloc-5-cta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#bloc-3-what-i-do::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navbar {
@@ -779,6 +810,7 @@ h4 {
 
 .tc-white {
   color: #f3976c !important;
+  position: relative;
 }
 
 .btn-atomic-tangerine {

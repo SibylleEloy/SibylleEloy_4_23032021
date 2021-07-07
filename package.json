@@ -1,0 +1,25 @@
+{
+  "name": "sibylleeloy_4_23032021",
+  "version": "1.0.0",
+  "description": "SibylleEloy_4_23032021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SibylleEloy/SibylleEloy_4_23032021.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SibylleEloy/SibylleEloy_4_23032021/issues"
+  },
+  "homepage": "https://github.com/SibylleEloy/SibylleEloy_4_23032021#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-minify": "^3.1.0"
+  }
+}
