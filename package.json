@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/SibylleEloy/SibylleEloy_4_23032021.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,8 +17,16 @@
   },
   "homepage": "https://github.com/SibylleEloy/SibylleEloy_4_23032021#readme",
   "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.6",
     "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-minify": "^3.1.0"
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.0.1"
+  },
+  "dependencies": {
+    "postcss": "^8.3.5"
   }
 }
